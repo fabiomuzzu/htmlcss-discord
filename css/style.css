@@ -9,6 +9,9 @@
     width: 100%;
     height: auto;
 }
+main p{
+    margin-top: 20px;
+}
 
 h2{
     font-size: 40px;
@@ -124,6 +127,7 @@ div .section_1 a{
     color: black;
     font-weight: bold;
 }
+
 #discord_browser{
     background-color: black;
     border-radius: 30px;
@@ -211,6 +215,13 @@ div .section_1 a{
     padding: 30px;
 }
 
+#mac_link2{
+    background-color: rgb(117, 25, 223);
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
 /* css del footer */
 /* css square sezione 6 */
 .section_6 {
