@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container {
+    width: 100%;
+    height: auto;
+    background-color: green;
+}
+
+ /* css dell'header */
+header {
+    height: 100px;
+    background-color: #add8e6;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* css del menù in header*/
+.row_menu {
+    width: 1000px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+}
+
+/* css 3 colonne header */
+.col-25 {
+    width: 25%;
+    height: 100%;
+    border: 1px dotted black;
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    justify-content: flex-end;
+}
+
+.col-50 {
+    width: 50%;
+    height: 100%;
+    border: 1px dotted black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* css colori bg_main + dimensioni */
+.bg {
+    width: 100%;
+    height: 500px;
+}
+
+.blu {
+    background-color: #00008b;
+}
+
+.white {
+    background-color: white;
+}
+
+.grey {
+    background-color: #d3d3d3;
+}
+
+.black {
+    background-color: #23272a;
+}
+
+/* css flex delle sezioni */
+.flex-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* css square blu in sezioni uguali */
+.section {
+    width: 1000px;
+    height: 80%;
+    background-color: #1e90ff;
+    border: 1px dotted black;
+    display: flex;
+}
+
+/* css square rosa uguali in sezione 2, 3 e 4*/
+.pink_square {
+    width: 40%;
+    height: 100%;
+    background-color: #ffc0cb;
+    border: 1px dotted black;
+}
+
+/* css square rosa sezione 1 con bg blu */
+.section_1 {
+    width: 700px;
+    height: 80%;
+    background-color: #ee82ee;
+    border: 1px dotted black;
+}
+
+/* css flex sezione 2 e 4 */
+.flex_2, .flex_4 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* css bg più alto in sezione 5 */
+#tallerbg {
+    height: 800px;
+}
+
+/* css square 5 */
+.section_5 {
+    width: 1000px;
+    height: 90%;
+    background-color: green;
+    border: 1px dotted black;
+}
+
+/* css square sezione 6 */
+.section_6 {
+    width: 1000px;
+    height: 95%;
+    background-color: #20b2aa;
+    border: 1px dotted black;
+    display: flex;
+}
+
+/* css square n.1 rosa in sezione 6 */
+#pinksq_1 {
+    width: 60%;
+    background-color: #f08080;
+}
+
+/* css dei 4 square blu in sezione 6 */
+.sq_sn6 {
+    width: 40%;
+    height: 100%;
+    background-color: #20b2aa;
+    border: 1px dotted black;
+}
+
+/* css del footer */
+footer{
+    height: 120px;
+    background-color: #23272a;
+}
+.footer_menu {
+    width: 1000px;
+    height: 70px;
+    border: 1px solid black;
+    display: flex;
+    background-color: #7fffd4;
+}
+
+/* css colonne footer */
+.col-50-ft-sx{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.col-50-ft-dx{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* css pulsanti footer */
+.ft_button{
+    border: 1px dotted black;
+    padding: 5px;
+    background-color: pink;
+}
+
+.container.black {
+    margin-top: 1px;
+}
