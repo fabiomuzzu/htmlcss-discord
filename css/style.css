@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .main_container {
@@ -50,7 +51,7 @@ header {
 div .col-25 a{
     background-color: white;
     border-radius: 20px;
-    padding: 8px;
+    padding: 8px 15px;
     font-weight: bold;
 }
 
@@ -86,9 +87,6 @@ nav a{
     background-color: white;
 }
 
-.grey {
-    background-color: #d3d3d3;
-}
 
 .black {
     background-color: #23272a;
@@ -110,7 +108,7 @@ nav a{
     padding: 90px;
 }
 
-div .section_1 p{
+.section_1 p{
     padding-top: 30px;
 }
 
@@ -122,14 +120,14 @@ div .section_1 a{
 #mac_link{
     background-color: white;
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     color: black;
     font-weight: bold;
 }
 #discord_browser{
     background-color: black;
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     color: white;
     font-weight: bold;
 }
@@ -142,11 +140,42 @@ div .section_1 a{
     display: flex;
 }
 
+.section_2 {
+    width: 1000px;
+    height: 80%;
+    background-image: url(/img/item1.svg);
+    display: flex;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+.section_3 {
+    width: 1000px;
+    height: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#bluesq_3 {
+    width: 60%;
+    background-image: url(/img/item2.svg);
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+
+.section_4 {
+    width: 1000px;
+    height: 80%;
+    background-image: url(/img/item3.svg);
+    display: flex;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
 /* css square rosa uguali in sezione 2, 3 e 4*/
 .pink_square {
     width: 40%;
     height: 100%;
-    background-color: #ffc0cb;
 }
 
 
@@ -164,32 +193,59 @@ div .section_1 a{
 /* css square 5 */
 .section_5 {
     width: 1000px;
-    height: 90%;
-    background-color: green;
+    height: 100%;
+    text-align: center;
 }
 
+.section_5 h2 {
+    margin: 20px 0;
+}
+
+
+#imgsz5 {
+    margin: 0px 60px;
+    height: 450px;
+}
+
+.section_5 h4{
+    padding: 30px;
+}
+
+/* css del footer */
 /* css square sezione 6 */
 .section_6 {
     width: 1000px;
     height: 95%;
-    background-color: #20b2aa;
     display: flex;
+    color: white;
 }
-
+.section_6 h4 {
+    color: rgb(117, 25, 223);
+}
+.sec
 /* css square n.1 rosa in sezione 6 */
 #pinksq_1 {
     width: 60%;
-    background-color: #f08080;
 }
 
 /* css dei 4 square blu in sezione 6 */
 .sq_sn6 {
     width: 40%;
     height: 100%;
-    background-color: #20b2aa;
+}
+.sq_sn6 span {
+    font-size: 30px;
+    display: block;
+    padding: 20px;
+    color: rgb(117, 25, 223);
 }
 
-/* css del footer */
+.sq_sn6 img{
+    width: 20px;
+    height: 15px;
+    margin: 0 15px;
+} 
+
 footer{
     height: 120px;
     background-color: #23272a;
@@ -198,7 +254,10 @@ footer{
     width: 1000px;
     height: 70px;
     display: flex;
-    background-color: #7fffd4;
+}
+
+ul{
+    list-style-type: none;
 }
 
 /* css colonne footer */
@@ -219,10 +278,13 @@ footer{
 
 /* css pulsanti footer */
 .ft_button{
-    padding: 5px;
-    background-color: pink;
+    padding: 5x;
 }
 
-.container.black {
-    margin-top: 1px;
+
+.col-50-ft-dx a{
+    background-color: rgb(117, 25, 223);
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-weight: bold;
 }
