@@ -7,13 +7,17 @@
 .main_container {
     width: 100%;
     height: auto;
-    background-color: green;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
 }
 
  /* css dell'header */
 header {
     height: 100px;
-    background-color: #add8e6;
+    background-color: #2a5ee8;
 }
 
 .container {
@@ -26,17 +30,15 @@ header {
 .row_menu {
     width: 1000px;
     height: 40px;
-    border: 1px solid black;
     display: flex;
     flex-direction: row;
-    background-color: orange;
+    background-color: #2a5ee8;
 }
 
 /* css 3 colonne header */
 .col-25 {
     width: 25%;
     height: 100%;
-    border: 1px dotted black;
     display: flex;
     align-items: center;
 }
@@ -45,14 +47,28 @@ header {
     justify-content: flex-end;
 }
 
+div .col-25 a{
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+    font-weight: bold;
+}
+
 .col-50 {
     width: 50%;
     height: 100%;
-    border: 1px dotted black;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+nav{
+    color: white;
+    font-weight: bold;
+}
+nav a{
+    padding: 0 10px;
 }
 
 /* css colori bg_main + dimensioni */
@@ -62,8 +78,9 @@ header {
 }
 
 .blu {
-    background-color: #00008b;
-}
+    background-image: url(/img/jumbo.png);
+    background-size: cover;
+  }
 
 .white {
     background-color: white;
@@ -84,12 +101,44 @@ header {
     align-items: center;
 }
 
+/* css square rosa sezione 1 con bg blu */
+.section_1 {
+    width: 700px;
+    height: 80%;
+    text-align: center;
+    color: white;
+    padding: 90px;
+}
+
+div .section_1 p{
+    padding-top: 30px;
+}
+
+div .section_1 a{
+    display: inline-block;
+    margin: 20px;
+}
+
+#mac_link{
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+}
+#discord_browser{
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
 /* css square blu in sezioni uguali */
 .section {
     width: 1000px;
     height: 80%;
     background-color: #1e90ff;
-    border: 1px dotted black;
     display: flex;
 }
 
@@ -98,16 +147,8 @@ header {
     width: 40%;
     height: 100%;
     background-color: #ffc0cb;
-    border: 1px dotted black;
 }
 
-/* css square rosa sezione 1 con bg blu */
-.section_1 {
-    width: 700px;
-    height: 80%;
-    background-color: #ee82ee;
-    border: 1px dotted black;
-}
 
 /* css flex sezione 2 e 4 */
 .flex_2, .flex_4 {
@@ -125,7 +166,6 @@ header {
     width: 1000px;
     height: 90%;
     background-color: green;
-    border: 1px dotted black;
 }
 
 /* css square sezione 6 */
@@ -133,7 +173,6 @@ header {
     width: 1000px;
     height: 95%;
     background-color: #20b2aa;
-    border: 1px dotted black;
     display: flex;
 }
 
@@ -148,7 +187,6 @@ header {
     width: 40%;
     height: 100%;
     background-color: #20b2aa;
-    border: 1px dotted black;
 }
 
 /* css del footer */
@@ -159,7 +197,6 @@ footer{
 .footer_menu {
     width: 1000px;
     height: 70px;
-    border: 1px solid black;
     display: flex;
     background-color: #7fffd4;
 }
@@ -182,7 +219,6 @@ footer{
 
 /* css pulsanti footer */
 .ft_button{
-    border: 1px dotted black;
     padding: 5px;
     background-color: pink;
 }
