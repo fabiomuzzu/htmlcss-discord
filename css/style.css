@@ -82,7 +82,7 @@ nav a{
 }
 
 .blu {
-    background-image: url(/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: cover;
   }
 
@@ -147,7 +147,7 @@ div .section_1 a{
 .section_2 {
     width: 1000px;
     height: 80%;
-    background-image: url(/img/item1.svg);
+    background-image: url(../img/item1.svg);
     display: flex;
     background-size: 60%;
     background-repeat: no-repeat;
@@ -162,7 +162,7 @@ div .section_1 a{
 
 #bluesq_3 {
     width: 60%;
-    background-image: url(/img/item2.svg);
+    background-image: url(../img/item2.svg);
     background-repeat: no-repeat;
     margin-left: 50px;
 }
@@ -170,7 +170,7 @@ div .section_1 a{
 .section_4 {
     width: 1000px;
     height: 80%;
-    background-image: url(/img/item3.svg);
+    background-image: url(../img/item3.svg);
     display: flex;
     background-size: 60%;
     background-repeat: no-repeat;
